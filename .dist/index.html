@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+   <!------------ Loader  ------------>
+    <div id="loader">
+        <span class="loader-text">&lt;Hello world?&gt;</span>
+    </div>
+    
+------------nav bar------------
+    <nav class="nav">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!------------ Header ------------>
+    <div class="header">
+        <h1>Hii! I'm Animesh Tajne</h1>
+        <P>I'm a first-year B.Tech student in Computer Science and Business Systems, passionate about technology, data, and innovation.
+Currently exploring the world of Data Science, learning Python, and building a strong foundation in web development and analytics.
+ I love participating in hackathons and tech events.</P>
+
+    </div>
+
+
+<!------------ Projects ------------>
+
+<div class="Projects" id="projects">
+    <h1>My Projects</h1>
+    <!----hacakthon projects---->
+    <h2 class="project-section-title">Hackathon Projects</h2>
+    <div class="project-list">
+        <div class="project-card">
+            <h2>Premedix</h2>
+            <p>Premedix uses AI to automate hospital asset management with real-time tracking, predictive maintenance, and smart procurement. Reduce costs, eliminate downtime, and prioritize patient care—all in one system.</p>
+            <a href="https://github.com/animesh-1121/ByteMe_hackgenx-animesh" class="github-link" >View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <h2>CodeHub</h2>
+            <p>CodeHub is an interactive multi-level coding platform where users can learn, code, and collaborate. It features CodeBuddy AI, a CodeMine for sharing code snippets, and a Mentorship Portal for guidance and support.</p>
+            <a href="https://github.com/animesh-1121/CodeHUB" class="github-link" >View on GitHub</a>
+        </div>
+    </div>
+
+    <!------personal projects------>
+    <h2 class="project-section-title">Personal Projects</h2>
+    <div class="project-list">
+        <div class="project-card">
+            <h2>Meme Maker Generator</h2>
+            <p>Meme Maker Generator is a fun and easy-to-use web app that allows users to create and customize memes instantly. Upload images or choose templates, add captions, and download or share your creations.</p>
+            <a href="https://github.com/animesh-1121/Meme-maker" class="github-link" >View on GitHub</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Contact Me Section -->
+<h2 class="project-section-title" id="contact">Contact Me</h2>
+<div class="contact-section">
+    <div class="contact-icons">
+        <a href="https://github.com/animesh-1121"  aria-label="GitHub">
+            <img src="https://img.icons8.com/?size=100&id=AZOZNnY73haj&format=png&color=000000" alt="GitHub" class="contact-icon">
+        </a>
+        <a href="https://www.linkedin.com/in/animesh-tajne" aria-label="LinkedIn">
+            <img src="assets/icons8-linkedin-48.png" alt="LinkedIn" class="contact-icon">
+        </a>
+        
+    </div>
+    <div class="contact-details">
+        <p>Email: <a href="mailto:work.animeshtajne@gmail.com">work.animeshtajne@gmail.com</a></p>
+        <p>Phone: <a href="tel:+917620320213">+91 7620320213</a></p>
+    </div>
+
+    <form class="contact-form" action="mailto:work.animeshtajne@gmail.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    
+</div>
+
+
+
+<script>
+    // Loader
+    window.addEventListener('load', function() {
+        setTimeout(function() {
+            const loader = document.getElementById('loader');
+            loader.style.opacity = '0';
+            setTimeout(function() {
+                loader.style.display = 'none';
+            }, 700); 
+        }, 3000); 
+    });
+
+    
+</script>
+</body>
+</html>
+
+</html>
